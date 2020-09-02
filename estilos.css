@@ -1,0 +1,101 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background: url("images/bg-pattern-desktop.svg")
+}
+
+.container__img1 img {
+    width: 527px;
+    height: 656px;
+    object-fit: cover;
+}
+
+.container__contenido {
+    margin-left: 123px;
+    margin-right: 170px;
+}
+
+.container__logo {
+    margin-top: 50px;
+}
+
+.container__titulo1 {
+    margin-top: 100px;
+    margin-block-end: 0;
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    font-size: 62px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.container__titulo2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 11px;
+    font-size: 61px;
+}
+
+.container__titulo3 {
+    margin-block-start: 0;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 11px;
+    font-size: 61px;
+}
+
+.container__parrafo {
+    font-size: 16px;
+    color: hsl(0, 36%, 70%);
+    line-height: 27px;
+}
+
+.container__button {
+    margin-top: 33px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.container__button input {
+    border-radius: 28px;
+    height: 39px;
+    width: 346px;
+    padding-left: 23px;
+    border: 1px solid hsl(0, 36%, 70%);
+    outline: none;
+}
+
+.container__button button {
+    width: 64px;
+    height: 41px;
+    border-radius: 28px;
+    background-color: hsl(0, 36%, 70%);
+    border: none;
+    box-sizing: content-box;
+    position: absolute;
+    z-index: 2;
+    right: 124px;
+    cursor: pointer;
+    outline: none;
+}
+
+.container__button button:hover {
+    background-color: hsl(0, 93%, 68%);
+    ;
+}
+
+.container__button input::placeholder {
+    color: hsl(0, 36%, 70%);
+    font-family: 'Josefin Sans', sans-serif;
+}
